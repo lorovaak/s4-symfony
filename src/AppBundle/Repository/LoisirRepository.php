@@ -7,20 +7,22 @@ use Doctrine\ORM\EntityRepository;
 /**
  * Loisir repository
  */
- class LoisirRepository extends EntityRepository{
+ class LoisirRepository extends EntityRepository
+ {
      /**
       * Find ...
       */
-      public function findAllLoisirs(){
-          $qBuilder = $this
+     public function findAllLoisirs()
+     {
+         $qBuilder = $this
             ->getEntityManager()
             ->createQueryBuilder();
             
-          $qBuilder->select('f');
-          $qBuilder->from('AppBundle:Loisir', 'f');
+         $qBuilder->select('f');
+         $qBuilder->from('AppBundle:Loisir', 'f');
           
-          $result = $qBuilder->getQuery()->getResult();
+         $result = $qBuilder->getQuery()->getResult();
           
-          return $result;
-      }
+         return $result;
+     }
  }

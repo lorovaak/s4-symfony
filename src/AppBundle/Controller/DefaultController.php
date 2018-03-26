@@ -15,12 +15,12 @@ class DefaultController extends Controller
      */
     public function indexAction($error = false)
     {
-         $forms = $this->getDoctrine()->getRepository("AppBundle:Formation")->findAll();
-         $exps = $this->getDoctrine()->getRepository("AppBundle:Experience")->findAll();
-         $lois = $this->getDoctrine()->getRepository("AppBundle:Loisir")->findAll();
+        $forms = $this->getDoctrine()->getRepository("AppBundle:Formation")->findAll();
+        $exps = $this->getDoctrine()->getRepository("AppBundle:Experience")->findAll();
+        $lois = $this->getDoctrine()->getRepository("AppBundle:Loisir")->findAll();
         // // replace this example code with whatever you need
-         return array('name' => 'Dietsch', 'firstname' => "Laura", 'formations' => $forms, 'experiences' => $exps, 'loisirs' => $lois, 'error' => $error);
-        }
+        return array('name' => 'Dietsch', 'firstname' => "Laura", 'formations' => $forms, 'experiences' => $exps, 'loisirs' => $lois, 'error' => $error);
+    }
     /**
      * @Route("/admin", name="admin")
      * @Template()

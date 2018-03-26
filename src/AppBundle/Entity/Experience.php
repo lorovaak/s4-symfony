@@ -11,69 +11,80 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="experiences")
  * @ApiResource
  */
-class Experience {
+class Experience
+{
     
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
      */
-     protected $id;
+    protected $id;
      
-     /**
-      * @ORM\Column(type="string", name="name")
-      */
-     private $name;
-     /**
-      * @ORM\Column(type="string", name="place")
-      */
-     private $place;
-     /**
-      * @ORM\Column(type="string", name="debut")
-      */
-     private $debut;
-     /**
-      * @ORM\Column(type="string", name="fin")
-      */
-     private $fin;
+    /**
+     * @ORM\Column(type="string", name="name")
+     */
+    private $name;
+    /**
+     * @ORM\Column(type="string", name="place")
+     */
+    private $place;
+    /**
+     * @ORM\Column(type="string", name="debut")
+     */
+    private $debut;
+    /**
+     * @ORM\Column(type="string", name="fin")
+     */
+    private $fin;
      
-     public function setId($value){
-         $this->id = $value;
-     }
+    public function setId($value)
+    {
+        $this->id = $value;
+    }
      
-     public function getId(){
-         return $this->id;
-     }
+    public function getId()
+    {
+        return $this->id;
+    }
      
-     public function setName($value){
-         $this->name = $value;
-     }
+    public function setName($value)
+    {
+        $this->name = $value;
+    }
      
-     public function getName(){
-         return $this->name;
-     }
+    public function getName()
+    {
+        return $this->name;
+    }
      
-     public function setPlace($value){
-         $this->place = $value;
-     }
+    public function setPlace($value)
+    {
+        $this->place = $value;
+    }
      
-     public function getPlace(){
-         return $this->place;
-     }
+    public function getPlace()
+    {
+        return $this->place;
+    }
      
-     public function setDebut($value){
-         $this->debut = $value;
-     }
+    public function setDebut($value)
+    {
+        $this->debut = $value;
+    }
      
-     public function getDebut(){
-         return $this->debut;
-     }
+    public function getDebut()
+    {
+        return $this->debut;
+    }
      
-     public function setFin($value){
-         $this->fin = $value;
-     }
+    public function setFin($value)
+    {
+        $this->fin = $value;
+    }
      
-     public function getFin(){
-         return $this->fin;
-     }
+    public function getFin()
+    {
+        return $this->fin;
+    }
 }

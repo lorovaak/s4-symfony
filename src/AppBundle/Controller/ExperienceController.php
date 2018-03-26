@@ -20,21 +20,23 @@ class ExperienceController extends Controller
       * @Route("/create", name="create_experience")
       * @Template()
       */
-      public function createAction(){
-          $experience = new Experience();
-          $form = $this->createForm(ExperienceType::class, $experience);
+    public function createAction()
+    {
+        $experience = new Experience();
+        $form = $this->createForm(ExperienceType::class, $experience);
           
-          return array(
+        return array(
               'entity' => $experience,
               'form' => $form->createView(),
               );
-      }
+    }
       
-     /**
+    /**
     * @Route("/save", name="save_experience")
     * @Template()
     */
-    public function saveLoiAction(){
+    public function saveLoiAction()
+    {
         $exp = new Experience();
         $exp->setName('Théâtre');
         $exp->setPlace('ComMania - Paris');
@@ -54,7 +56,7 @@ class ExperienceController extends Controller
     {
         $experience = new Experience();
         $form = $this->createForm(ExperienceType::class, $experience);
-        $form->handleRequest($request); 
+        $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $eManager = $this->getDoctrine()->getManager();
             $eManager->persist($experience);
@@ -67,7 +69,7 @@ class ExperienceController extends Controller
         ));
     }
     
-        /**
+    /**
      * @Route("/edit/{id}", name="edit_experience")
      * @Template()
      */
@@ -90,7 +92,7 @@ class ExperienceController extends Controller
     {
         $experience = $this->getDoctrine()->getRepository('AppBundle:Experience')->FindOneBy(["id" => $id]);
         $form = $this->createForm(ExperienceType::class, $experience);
-        $form->handleRequest($request); 
+        $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $eManager = $this->getDoctrine()->getManager();
             $eManager->persist($experience);
@@ -107,17 +109,16 @@ class ExperienceController extends Controller
      * @Route("/delete/{id}", name="delete_experience")
      */
     
-    public function validateDeleteExperienceAction($id){
+    public function validateDeleteExperienceAction($id)
+    {
         $eManager = $this->getDoctrine()->getManager();
         $experience = $eManager->getRepository("AppBundle:Experience")->FindOneBy(["id" => $id]);
-        if ($experience == null){
-             return $this->redirectToRoute('homepage', array('error' => true));
-        }
-        else{
-        $eManager->remove($experience);
-        $eManager->flush();
-        return $this->redirectToRoute('homepage');
+        if ($experience == null) {
+            return $this->redirectToRoute('homepage', array('error' => true));
+        } else {
+            $eManager->remove($experience);
+            $eManager->flush();
+            return $this->redirectToRoute('homepage');
         }
     }
-
 }

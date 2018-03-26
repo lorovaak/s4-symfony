@@ -20,21 +20,23 @@ class FormationController extends Controller
       * @Route("/create", name="create_formation")
       * @Template()
       */
-      public function createAction(){
-          $formation = new Formation();
-          $form = $this->createForm(FormationType::class, $formation);
+    public function createAction()
+    {
+        $formation = new Formation();
+        $form = $this->createForm(FormationType::class, $formation);
           
-          return array(
+        return array(
               'entity' => $formation,
               'form' => $form->createView(),
               );
-      }
+    }
       
-     /**
+    /**
     * @Route("/save", name="save_formation")
     * @Template()
     */
-    public function saveLoiAction(){
+    public function saveLoiAction()
+    {
         $exp = new Formation();
         $exp->setName('Théâtre');
         $exp->setPlace('ComMania - Paris');
@@ -54,7 +56,7 @@ class FormationController extends Controller
     {
         $formation = new Formation();
         $form = $this->createForm(FormationType::class, $formation);
-        $form->handleRequest($request); 
+        $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $eManager = $this->getDoctrine()->getManager();
             $eManager->persist($formation);
@@ -67,7 +69,7 @@ class FormationController extends Controller
         ));
     }
     
-        /**
+    /**
      * @Route("/edit/{id}", name="edit_formation")
      * @Template()
      */
@@ -90,7 +92,7 @@ class FormationController extends Controller
     {
         $formation = $this->getDoctrine()->getRepository('AppBundle:Formation')->FindOneBy(["id" => $id]);
         $form = $this->createForm(FormationType::class, $formation);
-        $form->handleRequest($request); 
+        $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $eManager = $this->getDoctrine()->getManager();
             $eManager->persist($formation);
@@ -107,17 +109,16 @@ class FormationController extends Controller
      * @Route("/delete/{id}", name="delete_formation")
      */
     
-    public function validateDeleteFormationAction($id){
+    public function validateDeleteFormationAction($id)
+    {
         $eManager = $this->getDoctrine()->getManager();
         $formation = $eManager->getRepository("AppBundle:Formation")->FindOneBy(["id" => $id]);
-        if ($formation == null){
-             return $this->redirectToRoute('homepage', array('error' => true));
-        }
-        else{
-        $eManager->remove($formation);
-        $eManager->flush();
-        return $this->redirectToRoute('homepage');
+        if ($formation == null) {
+            return $this->redirectToRoute('homepage', array('error' => true));
+        } else {
+            $eManager->remove($formation);
+            $eManager->flush();
+            return $this->redirectToRoute('homepage');
         }
     }
-
 }
