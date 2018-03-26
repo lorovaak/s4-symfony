@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Laura Dietsch | CV{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+            <link href="favicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+
+    <!-- font-awesome -->
+    <link href="{{asset('template/css/font-awesome.min.css')}}" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="{{asset('template/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- owl carousal -->
+    <link href="{{asset('template/css/owl.carousel.css')}}" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="{{asset('template/css/style.css')}}" rel="stylesheet">
+    
+    <link href="{{asset('template/node_modules/noty/lib/noty.css')}}" rel="stylesheet">
+    <link href="{{asset('template/node_modules/noty/lib/themes/metroui.css')}}" rel="stylesheet">
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        <script src="{{asset('template/js/jquery-2.1.4.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('template/node_modules/noty/lib/noty.min.js')}}"></script>
+        <!-- Bootstrap -->
+        <script src="{{asset('template/js/bootstrap.min.js')}}"></script>
+        <!--owl carousal-->
+        <script src="{{asset('template/js/owl.carousel.min.js')}}"></script>
+        <!--theme script-->
+        <script src="{{asset('template/js/scripts.js')}}"></script>
+        
+        {% if error is defined and error == true %}
+        <script type="text/javascript">
+            $(document).ready(function(){
+                    new Noty({text: "ERROR : L'id n'existe pas, rien n'a été supprimé",
+                         layout: 'center',
+                          theme: 'metroui',
+                          type: 'error',
+                          template: '<div class="noty_message"><span class="noty_text"></span><div class="noty_close"></div></div>'
+                    }).show();
+                }
+            );
+        </script>
+        {% endif %}
+        
+    </body>
+</html>
+
+

@@ -1,0 +1,264 @@
+[29-Jan-2018 16:19:58 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\DefaultController::indexAction() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 26
+[29-Jan-2018 16:19:58 UTC] PHP Stack trace:
+[29-Jan-2018 16:19:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[29-Jan-2018 16:19:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[29-Jan-2018 16:19:58 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[29-Jan-2018 16:19:58 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[29-Jan-2018 16:19:58 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[29-Jan-2018 16:19:58 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[29-Jan-2018 16:19:58 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[29-Jan-2018 16:19:58 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[29-Jan-2018 16:19:58 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[29-Jan-2018 16:19:58 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[29-Jan-2018 16:19:58 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[29-Jan-2018 16:19:58 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[29-Jan-2018 16:20:32 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\DefaultController::indexAction() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 26
+[29-Jan-2018 16:20:32 UTC] PHP Stack trace:
+[29-Jan-2018 16:20:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[29-Jan-2018 16:20:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[29-Jan-2018 16:20:32 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[29-Jan-2018 16:20:32 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[29-Jan-2018 16:20:32 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[29-Jan-2018 16:20:32 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[29-Jan-2018 16:20:32 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[29-Jan-2018 16:20:32 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[29-Jan-2018 16:20:32 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[29-Jan-2018 16:20:32 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[29-Jan-2018 16:20:32 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[29-Jan-2018 16:20:32 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[05-Feb-2018 13:28:35 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataControllerController.php on line 15
+[05-Feb-2018 13:28:35 UTC] PHP Stack trace:
+[05-Feb-2018 13:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:28:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:28:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:28:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[05-Feb-2018 13:28:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151}() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151
+[05-Feb-2018 13:28:35 UTC] PHP   6. AppBundle\Controller\DataControllerController->saveData() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151
+[05-Feb-2018 13:28:42 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataControllerController.php on line 15
+[05-Feb-2018 13:28:42 UTC] PHP Stack trace:
+[05-Feb-2018 13:28:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:28:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:28:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:28:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:28:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:28:42 UTC] PHP   6. AppBundle\Controller\DataControllerController->saveData() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:28:46 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataControllerController.php on line 15
+[05-Feb-2018 13:28:46 UTC] PHP Stack trace:
+[05-Feb-2018 13:28:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:28:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:28:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:28:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:28:46 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:28:46 UTC] PHP   6. AppBundle\Controller\DataControllerController->saveData() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:29:08 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataControllerController.php on line 15
+[05-Feb-2018 13:29:08 UTC] PHP Stack trace:
+[05-Feb-2018 13:29:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:29:08 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:29:08 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:29:08 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:29:08 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:29:08 UTC] PHP   6. AppBundle\Controller\DataControllerController->saveData() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:29:28 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataControllerController.php on line 15
+[05-Feb-2018 13:29:28 UTC] PHP Stack trace:
+[05-Feb-2018 13:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:29:28 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:29:28 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:29:28 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:29:28 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:29:28 UTC] PHP   6. AppBundle\Controller\DataControllerController->saveData() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:31:38 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataController.php on line 16
+[05-Feb-2018 13:31:38 UTC] PHP Stack trace:
+[05-Feb-2018 13:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:31:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:31:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:31:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:31:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:31:38 UTC] PHP   6. AppBundle\Controller\DataController->saveAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:31:46 UTC] PHP Fatal error:  Class 'AppBundle\Controller\Formation' not found in /home/ubuntu/workspace/src/AppBundle/Controller/DataController.php on line 16
+[05-Feb-2018 13:31:46 UTC] PHP Stack trace:
+[05-Feb-2018 13:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 13:31:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 13:31:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 13:31:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[05-Feb-2018 13:31:46 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[05-Feb-2018 13:31:46 UTC] PHP   6. AppBundle\Controller\DataController->saveAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:05:27 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[12-Feb-2018 08:05:27 UTC] PHP Stack trace:
+[12-Feb-2018 08:05:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:05:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:05:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:05:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:05:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:05:27 UTC] PHP   6. AppBundle\Controller\DataController->save2Action() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:05:27 UTC] PHP   7. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/src/AppBundle/Controller/DataController.php:41
+[12-Feb-2018 08:05:27 UTC] PHP   8. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:356
+[12-Feb-2018 08:05:27 UTC] PHP   9. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:378
+[12-Feb-2018 08:05:27 UTC] PHP  10. Doctrine\ORM\Persisters\Entity\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:1014
+[12-Feb-2018 08:05:27 UTC] PHP  11. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php:277
+[12-Feb-2018 08:05:27 UTC] PHP  12. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[12-Feb-2018 08:06:08 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[12-Feb-2018 08:06:08 UTC] PHP Stack trace:
+[12-Feb-2018 08:06:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:06:08 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:06:08 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:06:08 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:06:08 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:06:08 UTC] PHP   6. AppBundle\Controller\DataController->save2Action() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:06:08 UTC] PHP   7. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/src/AppBundle/Controller/DataController.php:41
+[12-Feb-2018 08:06:08 UTC] PHP   8. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:356
+[12-Feb-2018 08:06:08 UTC] PHP   9. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:378
+[12-Feb-2018 08:06:08 UTC] PHP  10. Doctrine\ORM\Persisters\Entity\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:1014
+[12-Feb-2018 08:06:08 UTC] PHP  11. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php:277
+[12-Feb-2018 08:06:08 UTC] PHP  12. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[12-Feb-2018 08:08:16 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[12-Feb-2018 08:08:16 UTC] PHP Stack trace:
+[12-Feb-2018 08:08:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:08:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:08:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:08:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:08:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:08:16 UTC] PHP   6. AppBundle\Controller\DataController->saveExpAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:08:16 UTC] PHP   7. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/src/AppBundle/Controller/DataController.php:41
+[12-Feb-2018 08:08:16 UTC] PHP   8. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:356
+[12-Feb-2018 08:08:16 UTC] PHP   9. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:378
+[12-Feb-2018 08:08:16 UTC] PHP  10. Doctrine\ORM\Persisters\Entity\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:1014
+[12-Feb-2018 08:08:16 UTC] PHP  11. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php:277
+[12-Feb-2018 08:08:16 UTC] PHP  12. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[12-Feb-2018 08:37:36 UTC] PHP Fatal error:  Cannot redeclare class AppBundle\Repository\FormationRepository in /home/ubuntu/workspace/src/AppBundle/Repository/LoisirRepository.php on line 0
+[12-Feb-2018 08:37:36 UTC] PHP Stack trace:
+[12-Feb-2018 08:37:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:37:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:37:36 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:37:36 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:37:36 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:37:36 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:37:36 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:37:36 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:37:36 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:37:36 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:37:36 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:37:36 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:38:22 UTC] PHP Fatal error:  Cannot redeclare class AppBundle\Repository\FormationRepository in /home/ubuntu/workspace/src/AppBundle/Repository/LoisirRepository.php on line 0
+[12-Feb-2018 08:38:22 UTC] PHP Stack trace:
+[12-Feb-2018 08:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:38:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:38:22 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:38:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:38:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:38:22 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:38:22 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:38:22 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:38:22 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:38:22 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:38:22 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:38:22 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:40:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 25
+[12-Feb-2018 08:40:18 UTC] PHP Stack trace:
+[12-Feb-2018 08:40:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:40:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:40:18 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 08:40:18 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 08:40:18 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 08:40:18 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 08:40:18 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 08:40:18 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 08:40:18 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 08:40:18 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 08:40:18 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 08:40:18 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 08:42:07 UTC] PHP Fatal error:  Cannot redeclare class AppBundle\Repository\FormationRepository in /home/ubuntu/workspace/src/AppBundle/Repository/LoisirRepository.php on line 0
+[12-Feb-2018 08:42:07 UTC] PHP Stack trace:
+[12-Feb-2018 08:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:42:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:42:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:42:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4314
+[12-Feb-2018 08:42:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4359}() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:42:07 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4359
+[12-Feb-2018 08:42:07 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:42:07 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:42:07 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:42:07 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:42:07 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:42:07 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 10:34:06 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:34:06 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:34:09 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:34:09 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:38:49 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:38:49 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:38:58 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:38:58 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:46 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:46 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:50 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:50 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:51 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:39:51 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:41:58 UTC] PHP Warning:  Uncaught ReflectionException: Class AppBundle\Form\Symfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBun in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:41:58 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(AppBundle\Form\Symfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:43:19 UTC] PHP Warning:  Uncaught ReflectionException: Class Synfony\Component\Form\FormBuilderInterface not found in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php(146): require('/home/ubuntu/wo...')
+#1 [internal function]: Symfony\Component\Debug\DebugClassLoader->loadClass('AppBundle\\Form\\...')
+#2 [internal function]: spl_autoload_call('AppBundle\\Form\\...')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ClassExistenceResource.php(78): class_exists('AppBundle\\Form\\...')
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php(351): Symfony\Component\Config\Resource\ClassExistenceResource->isFresh(0)
+#5 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php(149): Symfony\Component\DependencyInjection\ContainerBuilder->getReflectionClass('AppBundle\\Form\\...' in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 10:43:19 UTC] PHP Fatal error:  Declaration of AppBundle\Form\LoisirType::buildForm(Synfony\Component\Form\FormBuilderInterface $builder, array $options) must be compatible with Symfony\Component\Form\FormTypeInterface::buildForm(Symfony\Component\Form\FormBuilderInterface $builder, array $options) in /home/ubuntu/workspace/src/AppBundle/Form/LoisirType.php on line 8
+[12-Feb-2018 14:59:43 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\LoisirController::validateLoisirAction() in /home/ubuntu/workspace/src/AppBundle/Controller/LoisirController.php on line 84

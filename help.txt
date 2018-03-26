@@ -1,0 +1,3 @@
+https://symfony-lauradietsch.c9users.io/web/app_dev.php/cv/dietsch/laura#
+https://github.com/AizeLeOuf/myawesomecv
+phpmyadmin-ctl install
