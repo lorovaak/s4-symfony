@@ -1,0 +1,6 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser:
+            url: https://symfony-lauradietsch.c9users.io/web/app_dev.php
+        - \Helper\Acceptance
