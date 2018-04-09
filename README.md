@@ -7,10 +7,11 @@ Ce projet a été réalisé dans le cadre du module S4 du DUT MMI Grenoble par L
 
 Fonctionnalités
 --------------
-![capture 2](/Capture2.JPG)
 
 Les entités loisir, formation et experience ont les fonction d'ajout, de suppression et de modification.
 La fonction d'ajout nécessite d'être authentifier en administrateur. Id : admin | mdp : admin
+
+![capture 2](/Capture2.JPG)
 
 
 
