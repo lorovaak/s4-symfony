@@ -16,14 +16,14 @@ use Doctrine\ORM\Mapping as ORM;
 class Formation
 {
     /**
-    * @ORM\Id
-    * @ORM\Column(type="integer")
-    * @ORM\GeneratedValue
-    */
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue
+     */
     protected $id;
     /**
-      * @ORM\Column(type="string", name="name")
-      */
+     * @ORM\Column(type="string", name="name")
+     */
     private $name;
     /**
      * @ORM\Column(type="string", name="place")

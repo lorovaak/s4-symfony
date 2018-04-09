@@ -44,4 +44,9 @@ class Loisir
     {
         return $this->name;
     }
+     
+    public function getLowerName()
+    {
+        return strtolower($this->name);
+    }
 }
