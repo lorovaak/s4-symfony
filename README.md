@@ -4,7 +4,7 @@ Ce projet a été réalisé dans le cadre du module S4 du DUT MMI Grenoble par L
 
 Fonctionnalités
 --------------
-![GitHub Logo](/Capture2.jpg)
+![GitHub Logo](/Capture2.JPG)
 Format: ![Alt Text](url)
 
 Les entités loisir, formation et experience on les fonction d'ajout, de suppression et de modification.
