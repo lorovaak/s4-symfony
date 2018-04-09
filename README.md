@@ -1,13 +1,13 @@
 Module Symfony S4 DUT MMI - Laura Dietsch
 ========================
-Ce projet a été réalisé dans le cadre du module S4 du DUT MMI Grenoble par Laura Dietsch promo 2018.
+Ce projet a été réalisé dans le cadre du module S4 du DUT MMI Grenoble par Laura Dietsch promo 2018. Il propose de créer un portfolio à partir d'un template boostrap pour découvrir Symfony.
+![GitHub Logo](/Capture1.JPG
 
 Fonctionnalités
 --------------
-![GitHub Logo](/Capture2.JPG)
-Format: ![Alt Text](url)
+![GitHub Logo](/Capture2.JPG
 
-Les entités loisir, formation et experience on les fonction d'ajout, de suppression et de modification.
+Les entités loisir, formation et experience ont les fonction d'ajout, de suppression et de modification.
 La fonction d'ajout nécessite d'être authentifier en administrateur. Id : admin | mdp : admin
 
 
